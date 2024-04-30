@@ -1,10 +1,10 @@
 from django.urls import path
 
 
-from api.view.all_data import AllDataCatListAPIView, AllDataFilterByLatLongDistanceView, AllDataFilterView, ApproveRejectView, InvestorInfoOwnListView, InvestorInfoView
-from api.view.financial_data import CurrencyListView, FinancialDataAPIView, FinancialDataDraftRetrieveView, FinancialDataDraftView, FinancialDataView
-from api.view.informative_data import InformativeDataDraftRetrieveView, InformativeDataDraftView, InformativeDataView, ObjectPhotoView
-from api.view.main_data import AreaAPIListView, AreaListView, CategoryApiListView, CategoryListView, CategoryRetrieveView, LocationView, MainDataAPIView, MainDataDraftListView, MainDataDraftRetrieveView, MainDataDraftView, MainDataView, ObjectPhotoViewList
+from full_data.data_views import AllDataCatListAPIView, AllDataFilterByLatLongDistanceView, AllDataFilterView, ApproveRejectView, InvestorInfoOwnListView, InvestorInfoView
+from full_data.data_views import CurrencyListView, FinancialDataAPIView, FinancialDataDraftRetrieveView, FinancialDataDraftView, FinancialDataView
+from full_data.data_views import InformativeDataDraftRetrieveView, InformativeDataDraftView, InformativeDataView, ObjectPhotoView
+from full_data.data_views import AreaAPIListView, AreaListView, CategoryApiListView, CategoryListView, CategoryRetrieveView, LocationView, MainDataAPIView, MainDataDraftListView, MainDataDraftRetrieveView, MainDataDraftView, MainDataView, ObjectPhotoViewList
 from smartnote.views import SmartNoteCreateView, SmartNoteDestroyView, SmartNoteListView, SmartNoteRetrieveView, SmartNoteUpdateView
 
 urlpatterns = [

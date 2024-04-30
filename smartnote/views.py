@@ -1,6 +1,6 @@
 from rest_framework import generics, status, permissions, views, mixins, viewsets
 from rest_framework.response import Response
-from all_data.models import Status
+from full_data.models import Status
 from .serializer import SmartNoteCreateSerializer, SmartNote,SmartNoteListRetrieveSerializer,SmartNoteMainDataSerializer, SmartNoteUpdateSerializer, CustomIdSerializer
 from django.db.models import Q
 from uuid import uuid4

@@ -40,14 +40,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'accounts',
-    'all_data',
     'chat',
-    'financial_data',
-    'informative_data',
-    'main_data',
     'news',
     'oneid',
     'smartnote',
+    'full_data',
 
     'rest_framework',
     'drf_yasg',

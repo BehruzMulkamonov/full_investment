@@ -31,7 +31,7 @@ account_activation_token = TokenGenerator()
 
 from .models import User, EmailActivation
 from .serializers import RegisterSerializer, LogoutSerializer
-from all_data.models import AllData, FinancialData, InformativeData, Currency, MainData, CurrencyPrice
+from full_data.models import AllData, FinancialData, InformativeData, Currency, MainData, CurrencyPrice
  
 class RegisterView(generics.CreateAPIView):
     serializer_class = RegisterSerializer

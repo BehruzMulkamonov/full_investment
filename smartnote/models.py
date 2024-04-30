@@ -1,5 +1,5 @@
 from django.db import models
-from all_data.models import MainData
+from full_data.models import MainData
 from accounts.models import User
 
 

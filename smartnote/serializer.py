@@ -1,6 +1,6 @@
 from .models import SmartNote
 from rest_framework import serializers
-from main_data.models import MainData
+from full_data.models import MainData
 
 
 class SmartNoteCreateSerializer(serializers.ModelSerializer):
